@@ -1,0 +1,39 @@
+/* Estilos padrão (tema escuro) */
+body {
+    background-color: #1E1E1E !important;
+    color: #EFEFF4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mike-menu a {
+    color: #FFFFFF !important;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.mike-menu a:hover {
+    color: #00B76C;
+    text-decoration: underline;
+}
+
+.mike-menu a:active {
+    color: #00B76C;
+    text-decoration: underline;
+}
+
+/* Classe para redimensionamento de imagens */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B76C;
+    height: 4px;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "25RYDD756Z.me.micheltlutz.MobLab",
+        "paths": [
+          "/moblab.micheltlutz.me/*"
+        ]
+      }
+    ]
+  }
+}
