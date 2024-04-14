@@ -13,7 +13,7 @@ class PageHome():
         main = Main()
         divC = Div(("class", "container"))
         h = H("1")
-        h.add(String("Hello World"))
+        h.add(String("Logado"))
         divC.add(h)
         
         header = Header(("class", "tc pv4"))

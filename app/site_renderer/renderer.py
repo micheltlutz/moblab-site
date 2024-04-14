@@ -30,13 +30,37 @@ class SiteRenderer:
             "name": "viewport",
             "content": "width=device-width, initial-scale=1"
             },
+            {
+            "name": "appleid-signin-client-id",
+            "content": "me.micheltlutz.MobLab"
+            },
+            {
+            "name": "appleid-signin-scope",
+            "content": "email"
+            },
+            {
+            "name": "appleid-signin-redirect-uri",
+            "content": "moblabapp://micheltlutz.me/logged"
+            },
+            # {
+            # "name": "appleid-signin-state",
+            # "content": ""
+            # },
+            # {
+            # "name": "appleid-signin-nonce",
+            # "content": ""
+            # },
+            {
+            "name": "appleid-signin-use-popup",
+            "content": "true"
+            },
             ]
 
         return list_meta
 
     def _make_scripts(self):
-        list_scripts = []
-        # list_scripts = ["/static/js/base-site.js"]
+        # list_scripts = []
+        list_scripts = ["https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"]
 
         return list_scripts
 

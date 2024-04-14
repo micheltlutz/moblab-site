@@ -37,3 +37,19 @@ body {
     height: 4px;
     width: 100%;
 }
+
+.login-container {
+    text-align: center;
+}
+.apple-login-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.apple-login-button:hover {
+    background-color: #333;
+}

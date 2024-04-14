@@ -2,35 +2,6 @@
 
 ## Configuração do Ambiente Virtual
 
-O Poetry cria e gerencia automaticamente um ambiente virtual para o seu projeto. Para ativá-lo, você pode simplesmente usar:
-
-```bash
-poetry shell
-```
-
-## Adicionando Dependências
-
-Para adicionar dependências ao seu projeto, use o comando:
-
-```bash
-poetry add <nome_da_dependência>
-```
-
-## Adicionando Scripts
-
-No pyproject.toml, você também pode adicionar scripts para facilitar a execução de comandos comuns. Por exemplo:
-
-```toml
-[tool.poetry.scripts]
-start = "seu_modulo:main"
-```
-
-Depois, você pode iniciar o projeto com:
-
-```bash
-poetry run start
-```
-
 ## Usando venv
 
 
