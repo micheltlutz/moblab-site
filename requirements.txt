@@ -11,3 +11,4 @@ Faker~=19.6.2
 PyJWT~=2.8.0
 python-dotenv
 winged-python
+cryptography

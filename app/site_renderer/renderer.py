@@ -8,7 +8,6 @@ from winged.HTML.script import Script
 from winged.HTML.meta import Meta
 from winged.core.generic_element import ElementAbstract
 
-
 class SiteRenderer:
     def __init__(self):
         self.elements = []
@@ -17,7 +16,7 @@ class SiteRenderer:
         self.elements.append(element)
 
     def _make_links(self):
-        list_links = ["https://unpkg.com/tachyons@4/css/tachyons.min.css", "/static/css/styles.css"]
+        list_links = ["/static/css/styles.css"]
 
         return list_links
     
@@ -40,16 +39,8 @@ class SiteRenderer:
             },
             {
             "name": "appleid-signin-redirect-uri",
-            "content": "moblabapp://micheltlutz.me/logged"
+            "content": "https://micheltlutz.me/logged"
             },
-            # {
-            # "name": "appleid-signin-state",
-            # "content": ""
-            # },
-            # {
-            # "name": "appleid-signin-nonce",
-            # "content": ""
-            # },
             {
             "name": "appleid-signin-use-popup",
             "content": "true"

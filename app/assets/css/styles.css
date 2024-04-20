@@ -6,23 +6,48 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
-.mike-menu a {
-    color: #FFFFFF !important;
-    transition: color 0.3s;
+/* Estilo para o menu */
+.mike-menu {
+    display: inline-block;
+  }
+  
+  /* Estilo para a lista */
+  .mike-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para os itens da lista */
+  .mike-menu ul li {
+    display: inline-block;
+  }
+  
+  /* Estilo para os links */
+  .mike-menu ul li a {
+    display: block;
+    padding: 10px 20px;
     text-decoration: none;
-}
-
-.mike-menu a:hover {
+    color: #FFFFFF;
+    background-color: #00B76C;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Estilo para alterar a cor do botão quando hover */
+  .mike-menu ul li a:hover {
+    background-color: #FFFFFF;
     color: #00B76C;
-    text-decoration: underline;
-}
+  }
+  
+  /* Estilo para o container do menu */
+  .container {
+    background-color: #1E1E1E;
+    padding: 20px;
+  }
 
-.mike-menu a:active {
-    color: #00B76C;
-    text-decoration: underline;
-}
-
+  
 /* Classe para redimensionamento de imagens */
 .img-responsive {
     max-width: 100%;

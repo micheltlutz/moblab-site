@@ -3,9 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appID": "25RYDD756Z.me.micheltlutz.MobLab",
+        "appID": "35RIDB766W.me.micheltlutz.MobLab",
         "paths": [
-          "/moblab.micheltlutz.me/*"
+          "/moblab.micheltlutz.me/settings-app"
         ]
       }
     ]

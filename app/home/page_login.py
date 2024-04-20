@@ -9,14 +9,17 @@ from urllib.parse import quote
 class PageLogin():
     def _get_menu(self):
 
-        bundleId = "me.micheltlutz.MobLab"
-        redirectUrl = "moblabapp://micheltlutz.me/logged"
+        client_id = "me.micheltlutz.MobLab.applelogin"
+        redirect_url = "https://moblab.micheltlutz.me/logged"
 
-        url = f"https://appleid.apple.com/auth/authorize?client_id={bundleId}&redirect_uri={quote(redirectUrl)}&response_type=code%20id_token&response_mode=form_post&scope=name%20email";
-            
+        url = f"https://appleid.apple.com/auth/authorize?client_id={quote(client_id)}&redirect_uri={quote(redirect_url)}&response_type=code%20id_token&response_mode=form_post&scope=name%20email";
+
+        # Name:MobLabSocialLoginApple
+        # Key ID:92M35KR4BV
 
         return [
-            {'url': url, 'id':'apple-signin_link', 'label': 'com scheme', 'target': '_self'},
+            {'url': url, 'id':'apple-signin_link', 'label': 'LOGIN ', 'target': '_self'},
+            {'url': 'https://moblab.micheltlutz.me/logged', 'label': 'Testar Area Logada', 'target': '_self'},
         ]
 
     def _get_button_login(self) -> Div:
