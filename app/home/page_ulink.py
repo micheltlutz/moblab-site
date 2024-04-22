@@ -12,8 +12,8 @@ class PageUlink():
         return [
             {'url': 'moblab://moblab.micheltlutz.me/', 'label': 'Abrir App', 'target': '_self'},
             {'url': 'https://moblab.micheltlutz.me/', 'label': 'Abrir App', 'target': '_self'},
-            {'url': 'moblab://moblab.micheltlutz.me/settings-app', 'label': 'Abrir App - Config', 'target': '_self'},
-            {'url': 'https://moblab.micheltlutz.me/settings-app', 'label': 'Abrir App - Config', 'target': '_self'},
+            {'url': 'moblab://moblab.micheltlutz.me/settings', 'label': 'Abrir App - Settings', 'target': '_self'},
+            {'url': 'https://moblab.micheltlutz.me/settings', 'label': 'Abrir App - Settings', 'target': '_self'},
             {'url': 'https://github.com/micheltlutz/moblab-site', 'label': 'Git Site', 'target': '_blank'},
             {'url': 'https://github.com/micheltlutz/moblab-ios', 'label': 'Git App - iOS', 'target': '_blank'},
             # {'url': 'https://moblab.micheltlutz.me/login', 'label': 'LOGIN', 'target': '_self'},

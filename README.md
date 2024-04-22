@@ -6,9 +6,10 @@ The project uses a library I wrote in Python to generate HTML called [Winged-Pyt
 
 ### Other Links:
 
-- [MobLab - iOS](https://github.com/micheltlutz/moblab-site)
-- [Universal Links post EN-US](https://github.com/micheltlutz/moblab-site)
-- [Universal Links post PT-BR](https://github.com/micheltlutz/moblab-site)
+- [MobLab - iOS](https://github.com/micheltlutz/moblab-ios)
+- [Universal Links Made Easy: Web-Mobile Connection for All Developers #1 - iOS World](https://micheltlutz.me/universal-links-made-easy-web-mobile-connection-for-all-developers-1-ios-world-99d9959f4d48)
+- [Universal Links Descomplicado: Conexão Web-Mobile para Todos os Desenvolvedores #1 - Mundo iOS](https://micheltlutz.me/universal-links-descomplicado-conex%C3%A3o-web-mobile-para-todos-os-desenvolvedores-1-mundo-ios-fbc8fd068e9b)
+- [Winged-Python](https://github.com/micheltlutz/Winged-Python)
 - [Author Links](https://linktr.ee/micheltlutz)
 
 
@@ -76,10 +77,3 @@ docker stop moblab
 The project documentation uses swagger, you can access it after running the docker container and accessing the address below in the browser, where you will find the routes, parameters and schemes of each of the routes created for your challenge, in addition to being able to execute the routes directly in the documentation.
 
 - [http://localhost:8000/docs](http://localhost:8000/docs)
-
-
-## Deploy
-
-```bash
-fly deploy
-```
